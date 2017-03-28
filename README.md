@@ -15,7 +15,7 @@ Code heavily borrowed from [DCGAN example of official pytorch repo](https://gith
 ### Getting Started
 
 ```sh
-# download the CMP Facades dataset from http://cmp.felk.cvut.cz/~tylecr1/facade/
+# download the CMP Facades dataset from https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/
 
 # decompress it to some folder /path/to/facades
 
@@ -36,15 +36,3 @@ python export.py \
 <img src="./example.jpg"/>
 
 Left: ground-truth. Middle: facades. Right: generated image.
-
-
-## Citation
-
-```
-@article{pix2pix2016,
-  title={Image-to-Image Translation with Conditional Adversarial Networks},
-  author={Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A},
-  journal={arxiv},
-  year={2016}
-}
-```
